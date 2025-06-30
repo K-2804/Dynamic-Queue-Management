@@ -20,5 +20,5 @@ A web-based queue token system for managing live token numbers efficiently — i
 
 ## 🚀 How to Run Locally
 ```bash
-1. Clone this repo
+1. git clone https://github.com/K-2804/Dynamic-Queue-Management.git
 2. Open `index.html` in any browser
