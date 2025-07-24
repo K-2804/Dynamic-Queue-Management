@@ -40,7 +40,7 @@ function showHospitals() {
             hospitalList.appendChild(hospitalDiv);
         });
 
-        hospitalListContainer.style.display = 'block'; // Show hospital list
+        hospitalListContainer.style.display = 'block'; 
     } else {
         hospitalListContainer.style.display = 'none';
     }
