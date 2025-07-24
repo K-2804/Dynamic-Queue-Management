@@ -11,6 +11,10 @@ const hospitalData = {
     "tvm-north": [
         { name: "TVM North Health Center", tokensAvailable: 30, currentToken: 18 },
         { name: "North Multi-Specialty Clinic", tokensAvailable: 12, currentToken: 6 }
+    ],
+    "general": [
+        { name: "TVM North Health Center", tokensAvailable: 30, currentToken: 18 },
+        { name: "North Multi-Specialty Clinic", tokensAvailable: 12, currentToken: 6 }
     ]
 };
 
