@@ -58,6 +58,7 @@ function showBookingForm(index, location) {
     document.getElementById('bookingForm').setAttribute('data-hospital-index', index);
 }
 
+
 function bookToken() {
     const name = document.getElementById('userName').value;
     const phone = document.getElementById('userPhone').value;
