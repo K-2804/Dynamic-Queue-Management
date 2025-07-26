@@ -24,7 +24,7 @@ function showHospitals() {
     const hospitalList = document.getElementById('hospitals');
 
     if (!location) {
-        alert("Please select a location");
+        alert("Please select a location"); 
         return;
     }
 
@@ -67,7 +67,7 @@ function bookToken() {
         const currentToken = selectedHospital.currentToken + 1;
 
         userToken = { name, phone, token: currentToken, location, hospital: selectedHospital.name };
-        selectedHospital.currentToken = currentToken; // Update hospital token count
+        selectedHospital.currentToken = currentToken; 
 
         document.getElementById('bookingForm').style.display = 'none';
         showTokenStatus();
