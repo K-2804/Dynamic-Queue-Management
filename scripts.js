@@ -24,7 +24,7 @@ function showHospitals() {
     const hospitalList = document.getElementById('hospitals');
 
     if (!location) {
-        alert("Please select a location first!");
+        alert("Please select a location");
         return;
     }
 
