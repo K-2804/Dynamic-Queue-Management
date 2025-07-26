@@ -79,6 +79,7 @@ function bookToken() {
     }
 }
 
+
 function showTokenStatus() {
     document.getElementById('tokenStatusPage').style.display = 'block';
     document.getElementById('currentToken').innerText = userToken.token;
