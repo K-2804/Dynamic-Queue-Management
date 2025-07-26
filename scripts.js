@@ -18,6 +18,7 @@ const hospitalData = {
     ]
 };
 
+
 function showHospitals() {
     const location = document.getElementById('locationDropdown').value;
     const hospitalListContainer = document.getElementById('hospitalList');
@@ -49,6 +50,7 @@ function showHospitals() {
         hospitalListContainer.style.display = 'none';
     }
 }
+
 
 function showBookingForm(index, location) {
     document.getElementById('bookingForm').style.display = 'block';
