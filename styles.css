@@ -64,7 +64,6 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* Container */
 .container {
     max-width: 960px;
     margin: 40px auto;
